@@ -1,0 +1,22 @@
+[project]
+name = "hf-pg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=4.8.5",
+    "huggingface-hub>=1.16.1",
+    "langchain-huggingface>=1.2.2",
+    "langchain-postgres>=0.0.17",
+    "numpy>=2.2.6",
+    "ollama>=0.6.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.12",
+    "psycopg[binary]>=3.3.4",
+    "pyarrow>=24.0.0",
+    "pypdf>=6.12.0",
+    "sentence-transformers>=5.5.1",
+    "transformers>=5.9.0",
+]
