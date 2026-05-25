@@ -218,3 +218,8 @@ secrets/
 
 # licenseFile
 licenseFiles/
+
+esg_excel_files/
+esg_pdf_files/
+*.csv
+*.parquet
